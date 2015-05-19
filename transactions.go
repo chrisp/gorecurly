@@ -23,6 +23,7 @@ type Transaction struct {
 	Currency        string   `xml:"currency,omitempty"`
 	Status          string   `xml:"status,omitempty"`
 	Reference       string   `xml:"reference,omitempty"`
+	IpAddress       string   `xml:"ip_address,omitempty"`
 	Test            bool     `xml:"test,omitempty"`
 	Voidable        bool     `xml:"voidable,omitempty"`
 	Refundable      bool     `xml:"refundable,omitempty"`
